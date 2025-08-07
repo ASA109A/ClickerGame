@@ -1,0 +1,35 @@
+button{
+    font-size: 30px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: #16171a;
+    padding: 40px;
+    color: #fafaff;
+    
+}
+p{
+    font-size: 30px;
+    color: #fafaff;
+}
+body{
+    background-color: #212226;
+    font-family: Arial;
+
+}
+.hidden{
+    display: none;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.shopListButtons{
+    transition: 0.5s;
+}
+
+.shopListButtons:hover{
+    background-color: #212226;
+
+}
